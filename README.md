@@ -1,3 +1,6 @@
+原作者项目地址
+https://github.com/shinygang/Vue-cnodejs
+
 #基于vue.js重写Cnodejs.org社区的webapp [线上访问地址](http://shinygang.coding.me/)
 
 ## 注意：当前项目代码已经升级到2.0，均采用vue-cli搭建的程序，非vue-cli的版本请看分支：not-vue-cli
@@ -5,10 +8,6 @@
  * ssr分支采用服务端渲染
  * 1.x代码请看1.x分支。
  * not-vue-cli则是没有采用vue-cli搭建的原始版本
-
--------
-如果你觉得该项目对你有帮助，就打赏作者一杯咖啡吧。
-![pic](https://segmentfault.com/img/bVqVEt)
 
 ###安装
 
