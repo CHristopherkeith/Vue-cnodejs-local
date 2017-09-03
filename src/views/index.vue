@@ -10,7 +10,9 @@
 
     export default {
         mounted() {
+            // console.log(this.$el);
             setTimeout(() => {
+                // console.log(this);
                 this.$router.push({
                     name: 'list'
                 });

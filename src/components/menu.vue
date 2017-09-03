@@ -13,11 +13,13 @@
     </section>
 </template>
 <script>
+    import userInfo from './user-info.vue';
     export default {
         replace: true,
         props: ['showMenu', 'pageType', 'nickName', 'profileUrl'],
         components: {
-            'userInfo': require('./user-info.vue')
+            // 'userInfo': require('./user-info.vue')
+            userInfo
         }
     };
 </script>

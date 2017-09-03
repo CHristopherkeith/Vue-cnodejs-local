@@ -4,12 +4,14 @@ const Home = resolve => {
         resolve(require('./views/index.vue'));
     });
 };
+// import Home from './views/index.vue';
 
 const List = resolve => {
     require.ensure(['./views/list.vue'], () => {
         resolve(require('./views/list.vue'));
     });
 };
+// import List from './views/list.vue';
 
 const routers = [{
     path: '/',

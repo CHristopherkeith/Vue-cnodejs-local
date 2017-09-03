@@ -147,6 +147,7 @@
                     if (d && d.data) {
                         d.data.forEach(this.mergeTopics);
                     }
+                    console.log(this.topics);
                 });
             },
             mergeTopics(topic) {

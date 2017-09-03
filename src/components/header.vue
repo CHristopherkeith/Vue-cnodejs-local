@@ -19,6 +19,7 @@
 
 <script>
 import $ from 'webpack-zepto';
+import nvMenu from './menu.vue';
 
 export default {
     replace: true,
@@ -52,7 +53,8 @@ export default {
         }
     },
     components: {
-        'nvMenu': require('./menu.vue')
+        // 'nvMenu': require('./menu.vue')
+        nvMenu
     }
 };
 </script>
