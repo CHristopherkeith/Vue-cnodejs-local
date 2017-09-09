@@ -137,6 +137,7 @@
             addReply(id) {
                 this.curReplyId = id;
                 if (!this.userInfo.userId) {
+                    console.log(this.$route.path);
                     this.$router.push({
                         name: 'login',
                         params: {

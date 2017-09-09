@@ -6,8 +6,10 @@ import utils from './libs/utils';
  */
 exports.getLastTimeStr = (time, friendly) => {
     if (friendly) {
+        // console.log(utils.MillisecondToDate(time), 'friendly');
         return utils.MillisecondToDate(time);
     } else {
+        // console.log(utils.fmtDate(new Date(time), 'yyyy-MM-dd hh:mm'), 'else');
         return utils.fmtDate(new Date(time), 'yyyy-MM-dd hh:mm');
     }
 };
