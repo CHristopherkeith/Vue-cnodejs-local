@@ -27,6 +27,7 @@
         },
         methods: {
             goEnter() {
+                console.log(this.$route.path);
                 this.$router.push({
                     name: 'login',
                     query: {

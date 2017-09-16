@@ -149,11 +149,11 @@
                     if (d && d.data) {
                         d.data.forEach(this.mergeTopics);
                     }
-                    console.log(this.topics);
+                    // console.log(this.topics);
                 });
             },
             mergeTopics(topic) {
-                console.log(this);
+                // console.log(this);
                 if (typeof this.index[topic.id] === 'number') {
                     const topicsIndex = this.index[topic.id];
                     this.topics[topicsIndex] = topic;
@@ -166,8 +166,8 @@
             getScrollData() {
                 if (this.scroll) {
                     let totalheight = parseInt($(window).height(), 20) + parseInt($(window).scrollTop(), 20);
-                    console.log(totalheight, 'totalheight');
-                    console.log($(document).height(), 'document');
+                    // console.log(totalheight, 'totalheight');
+                    // console.log($(document).height(), 'document');
                     if ($(document).height() <= totalheight + 200) {
                         this.scroll = false;
                         this.searchKey.page += 1;
